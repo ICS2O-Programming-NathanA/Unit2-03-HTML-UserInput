@@ -13,5 +13,5 @@ function enterClicked () {
   let userAge = parseInt(document.getElementById("age-entered").value)
 
   // display name and age back to user
-  document.getElementById('user-info').innerHTML = "To confirm your credit card number is " + firstName + " and your PIN is " + userAge + "."
+  document.getElementById('user-info').innerHTML = "To confirm your credit card number is " + firstName + " and your PIN is " + userAge + ". Pending gift card!"
 }
